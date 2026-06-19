@@ -5,140 +5,211 @@ export const projects = [
     category: "professional",
     featured: true,
     confidential: true,
+
     shortDescription:
-      "Built a unified customer database from 17 years of fragmented historical records.",
+    "Designed and built the organisation's first unified customer data foundation by consolidating customer, sales and call activity records from multiple operational sources.",
 
     context:
-      "A professional data consolidation project focused on bringing fragmented historical customer records into a more reliable analytics-ready environment.",
+    "The organisation had accumulated customer-related information across multiple operational systems over approximately 17 years of business activity. Customer details, sales transactions and call activity records existed in separate datasets, making it difficult to establish a consistent view of customer behaviour or perform reliable customer analysis across the business.",
 
     problem:
-      "Customer data was spread across multiple sources, making reporting inconsistent and limiting the organisation's ability to analyse long-term customer behaviour.",
+    "A key challenge was that travellers and customers were not always the same entity. In a travel agency environment, a booking can contain multiple travellers while the actual customer relationship may belong to a single individual or organisation. The business required a unified customer data model that could accurately identify customers, link related sales and activity records, and support consistent customer profiling and reporting going forward.",
 
     contribution: [
-      "Reviewed existing customer data sources and reporting needs.",
-      "Cleaned, matched and standardised customer records.",
-      "Designed a more structured customer data model for reporting use.",
-      "Supported dashboard and reporting development using the consolidated data.",
+    "Designed the customer data model and relational structure from the ground up, as no unified customer dataset previously existed.",
+    "Consolidated customer, sales and call activity data from multiple operational sources into integrated reporting tables.",
+    "Developed customer identification and matching logic to distinguish customers from travellers and support customer lifecycle analysis.",
+    "Established relationships between customer, sales and activity datasets through consistent ID logic and business rules.",
+    "Worked closely with IT stakeholders to define future customer profiling processes, including customer ID creation and returning customer classification.",
+    "Produced supporting data modelling documentation and implementation artefacts to support long-term maintenance and adoption."
     ],
 
     result: [
-      "Improved consistency of customer reporting.",
-      "Reduced reliance on fragmented manual files.",
-      "Created a stronger foundation for customer analytics and business reporting.",
+    "Delivered the organisation's first unified customer data foundation.",
+    "Enabled customer, sales and activity records to be analysed through a consistent customer view.",
+    "Improved reliability and consistency of customer reporting across the business.",
+    "Established standardised customer profiling and customer lifecycle definitions for future reporting and analytics.",
+    "Created a scalable foundation for customer analytics, segmentation and reporting initiatives."
     ],
 
-    technologies: ["SQL", "Power BI", "Excel", "Data Modelling"],
-    screenshot: "",
+    technologies: [
+    "SQL",
+    "Data Modelling",
+    "ETL",
+    "Data Integration",
+    "Data Validation",
+    "Customer Analytics",
+    "Data Governance",
+    "Stakeholder Management"
+    ],
+
+    screenshot: "images/2.png",
+
     links: [],
   },
 
   {
     id: "marketing-reporting-platform",
-    title: "Marketing Reporting Platform",
+    title: "Marketing Data Platform & Performance Reporting",
+
     category: "professional",
     featured: true,
     confidential: true,
+
     shortDescription:
-      "Developed a consolidated reporting platform for cross-channel marketing performance.",
+    "Designed and implemented a unified marketing data platform that consolidated performance, attribution and ROI reporting across multiple digital acquisition channels.",
 
     context:
-      "A professional reporting project designed to improve visibility across digital marketing channels and campaign performance.",
+    "The organisation operated across a growing number of digital marketing channels including Google Ads, Meta Ads, Microsoft Ads, HubSpot EDM campaigns, SMS marketing, influencer partnerships and external media placements. As new channels were frequently introduced for testing, stakeholders lacked a consistent way to compare performance and understand overall marketing effectiveness.",
 
     problem:
-      "Marketing performance data existed across multiple platforms, making it difficult to compare results, monitor efficiency and understand channel-level performance.",
+    "Marketing performance data was fragmented across multiple platforms, each using different reporting methodologies and attribution models. Sales and ROI metrics were not directly comparable, making it difficult to evaluate channel effectiveness, identify high-performing campaigns or understand how marketing activity contributed to customer acquisition.",
 
     contribution: [
-      "Consolidated available marketing data from multiple reporting sources.",
-      "Defined practical performance metrics for campaign monitoring.",
-      "Built reporting views to support marketing and management decision-making.",
-      "Improved reporting consistency across campaign and channel analysis.",
+    "Designed a unified marketing data model capable of consolidating performance data from multiple marketing platforms.",
+    "Developed automated ETL processes and API integrations to regularly ingest marketing data into central reporting tables.",
+    "Implemented UTM-based attribution logic to establish consistent measurement of users, sales and ROI across channels.",
+    "Integrated marketing data with the customer database to support first-touch and last-touch attribution analysis.",
+    "Built a web-based reporting environment that supported overall, channel-level and campaign-level performance analysis.",
+    "Designed comparison views across channels and reporting periods, including monthly and rolling 10-day performance monitoring.",
+    "Implemented AI-assisted summary generation to provide stakeholders with automated performance insights based on the current reporting view."
     ],
 
     result: [
-      "Improved visibility across marketing channels.",
-      "Reduced manual reporting effort.",
-      "Supported more informed marketing performance discussions.",
+    "Established a centralised marketing reporting platform across multiple acquisition channels.",
+    "Created consistent attribution and ROI measurement across previously disconnected platforms.",
+    "Reduced manual reporting effort through automated data collection and processing.",
+    "Enabled marketing stakeholders to evaluate performance across channels, campaigns and reporting periods from a single environment.",
+    "Improved visibility into customer acquisition journeys through first-touch and last-touch attribution analysis."
     ],
 
-    technologies: ["SQL", "Power BI", "Google Ads", "Meta Ads"],
+    technologies: [
+    "SQL",
+    "ETL",
+    "API Integration",
+    "Data Modelling",
+    "Marketing Analytics",
+    "Attribution Modelling",
+    "Customer Analytics",
+    "PHP",
+    "AI Integration"
+    ],
+
     screenshot: "images/marketing-reporting-platform.png",
+
     links: [
-      {
-        label: "View Full Screenshot",
-        url: "images/marketing-reporting-platform.png",
-      },
+    {
+    label: "View Full Screenshot",
+    url: "images/marketing-reporting-platform.png",
+    },
     ],
   },
 
   {
-    id: "travel-analytics-reporting",
-    title: "Travel Analytics & Reporting",
+    id: "sales-performance-platform",
+
+    title: "Sales Performance & Materialisation Reporting Platform",
+
     category: "professional",
     featured: false,
     confidential: true,
+
     shortDescription:
-      "Built commercial and operational reporting solutions across sales, marketing, operations and management.",
+    "Designed and implemented a web-based sales reporting platform that transformed operational sales data into actionable commercial insights for management and sales teams.",
 
     context:
-      "A collection of reporting and analytics work delivered across business functions in the travel industry.",
+    "The organisation relied on an existing internal reporting environment that had gradually become difficult to maintain and no longer supported evolving reporting requirements. As sales, operational and management stakeholders required deeper visibility into commercial performance, a more flexible reporting solution was needed.",
 
     problem:
-      "Different teams needed reliable reporting for sales, operations, marketing and management, but data requirements were often changing and business logic was not always clearly documented.",
+    "Existing reports were limited in scope and unable to answer many of the operational and commercial questions regularly raised by management and sales teams. In particular, the business needed stronger visibility into materialisation performance, sector trends and airline-level outcomes to identify areas requiring attention and support data-driven decision-making.",
 
     contribution: [
-      "Worked with stakeholders to clarify reporting requirements.",
-      "Built dashboards and recurring reports for different business functions.",
-      "Validated data outputs to improve trust in reporting.",
-      "Adapted reporting logic as business needs changed.",
+    "Gathered reporting requirements directly from management and sales stakeholders by identifying the key business questions the platform needed to answer.",
+    "Designed reporting components and user workflows around stakeholder decision-making requirements rather than existing reporting structures.",
+    "Developed a web-based reporting environment directly connected to the operational database to provide near real-time reporting capability.",
+    "Built reporting views covering overall business performance, sales outcomes and operational metrics.",
+    "Designed a materialisation analysis framework including matrix views and visual indicators to identify low-performing sectors and airline routes.",
+    "Implemented automated report distribution and email delivery functionality.",
+    "Integrated AI-generated summaries to provide stakeholders with automated explanations of current performance and key trends."
     ],
 
     result: [
-      "Improved access to business performance information.",
-      "Supported cross-functional reporting needs.",
-      "Helped teams make faster and more informed decisions.",
+    "Delivered a modern reporting environment capable of supporting a broader range of commercial and operational reporting requirements.",
+    "Improved visibility into sales performance, materialisation outcomes and sector-level trends.",
+    "Enabled faster identification of low-performing sectors and airlines requiring management attention.",
+    "Reduced reliance on manual reporting processes through automated reporting and distribution capabilities.",
+    "Provided management and sales teams with more accessible and actionable business insights."
     ],
 
-    technologies: ["SQL", "Power BI", "Excel", "Python"],
+    technologies: [
+    "SQL",
+    "Data Modelling",
+    "Reporting Platform Design",
+    "Requirements Gathering",
+    "Stakeholder Management",
+    "Commercial Analytics",
+    "Operational Analytics",
+    "PHP",
+    "AI Integration"
+    ],
+
     screenshot: "images/travel-analytics-reporting.png",
+
     links: [
-      {
-        label: "View Full Screenshot",
-        url: "images/travel-analytics-reporting.png",
-      },
+    {
+    label: "View Full Screenshot",
+    url: "images/travel-analytics-reporting.png",
+    },
     ],
   },
 
   {
-    id: "workforce-hr-reporting",
-    title: "Workforce & HR Reporting",
+    id: "incentive-automation",
+
+    title: "Workforce Incentive Calculation Automation",
+
     category: "professional",
     featured: false,
     confidential: true,
+
     shortDescription:
-      "Created internal reporting solutions supporting workforce planning and management visibility.",
+    "Designed an automated incentive calculation framework that reduced manual effort and simplified the management of evolving commission and performance reward programs.",
 
     context:
-      "Internal reporting work supporting workforce visibility and operational management.",
+    "The organisation operated multiple incentive and performance reward programs across different teams. As program structures and thresholds changed frequently, calculating incentive payments became increasingly time-consuming and difficult to maintain through manual processes.",
 
     problem:
-      "Workforce-related data needed to be organised and reported in a way that was useful for management oversight and planning.",
+    "Management required a reliable and scalable method for calculating incentive outcomes while retaining flexibility to adapt to changing business rules. Manual calculations increased administrative effort and created a risk of inconsistency when incentive structures were updated.",
 
     contribution: [
-      "Prepared and validated workforce-related data.",
-      "Built recurring reporting outputs for internal users.",
-      "Supported visibility across staff-related metrics and operational planning.",
+    "Analysed existing incentive programs and identified common calculation patterns.",
+    "Designed reporting and calculation frameworks capable of supporting multiple incentive structures.",
+    "Built automated dashboards that calculated incentive outcomes using configurable business rules.",
+    "Developed flexible threshold management logic allowing incentive targets to be updated without redesigning reporting logic.",
+    "Created reporting views that provided visibility into both performance metrics and incentive outcomes."
     ],
 
     result: [
-      "Improved management visibility.",
-      "Supported recurring internal reporting.",
-      "Reduced manual effort in preparing workforce information.",
+    "Reduced manual effort required for recurring incentive calculations.",
+    "Improved consistency and transparency of incentive reporting.",
+    "Enabled faster adaptation to changing business rules and reward structures.",
+    "Provided management with a scalable framework for monitoring performance and incentive outcomes."
     ],
 
-    technologies: ["Excel", "Power BI", "Data Validation"],
-    screenshot: "",
+    technologies: [
+    "SQL",
+    "Business Rule Design",
+    "Reporting Automation",
+    "Performance Analytics",
+    "DashboardFox",
+    "Data Validation",
+    "Operational Reporting"
+    ],
+
+    screenshot: "images/1.png",
+
     links: [],
-  },
+    },
 
   {
     id: "calllens",
@@ -178,149 +249,201 @@ export const projects = [
 
   {
     id: "ice-data-warehouse",
-    title: "ICE Entertainment Data Warehouse",
+
+    title: "Enterprise Data Warehouse & Governance Framework",
+
     category: "academic",
     featured: true,
     confidential: false,
+
     shortDescription:
-      "Designed a data warehouse with ETL processes, dimensional modelling and governance recommendations.",
+    "Designed an enterprise data warehouse architecture with ETL processes, dimensional modelling and governance recommendations.",
 
     context:
-      "An academic data warehousing project focused on designing an enterprise analytics environment for ICE Entertainment.",
+    "ICE Entertainment required a centralised analytics environment capable of supporting reporting, customer insights and operational decision-making across multiple business systems.",
 
     problem:
-      "The organisation needed a more structured data environment to support reporting, governance and decision-making across multiple operational data sources.",
+    "Operational data was distributed across multiple platforms, limiting consistency, governance and enterprise-wide reporting capability.",
 
     contribution: [
-      "Designed dimensional models using facts and conformed dimensions.",
-      "Built ETL processes to move and transform source data.",
-      "Considered governance, privacy, quality and access requirements.",
+    "Designed dimensional models using fact and conformed dimension tables.",
+    "Developed ETL processes to consolidate and transform source data.",
+    "Created enterprise data warehouse architecture and governance recommendations.",
+    "Addressed data quality, privacy, metadata and access management considerations."
     ],
 
     result: [
-      "Created a structured data warehouse design.",
-      "Demonstrated ETL and dimensional modelling capability.",
-      "Developed governance recommendations aligned with business needs.",
+    "Delivered a complete enterprise data warehouse design.",
+    "Demonstrated dimensional modelling and ETL design capability.",
+    "Established governance recommendations supporting long-term analytics maturity."
     ],
 
-    technologies: ["MySQL", "Pentaho", "Data Warehousing"],
+    technologies: [
+    "Data Warehousing",
+    "Dimensional Modelling",
+    "ETL Design",
+    "Data Governance",
+    "MySQL",
+    "Pentaho"
+    ],
+
     screenshot: "images/ice-data-warehouse.png",
+
     links: [
-      {
-        label: "View Report",
-        url: "documents/ice-data-warehouse-report.pdf",
-      },
+    {
+    label: "View Report",
+    url: "documents/ice-data-warehouse-report.pdf",
+    },
     ],
-  },
+    },
 
-  {
-    id: "monte-carlo-simulation",
-    title: "Monte Carlo Simulation",
-    category: "academic",
-    featured: false,
-    confidential: false,
-    shortDescription:
-      "Built a simulation model to evaluate operational risk and profitability under uncertainty.",
-
-    context:
-      "An academic simulation project modelling uncertainty in operational and financial outcomes.",
-
-    problem:
-      "The business needed to understand how uncertain inputs could affect profitability and risk.",
-
-    contribution: [
-      "Defined fixed and stochastic variables.",
-      "Built simulation logic to model possible outcomes.",
-      "Analysed risk metrics and scenario results.",
-    ],
-
-    result: [
-      "Estimated probability of loss and profitability ranges.",
-      "Supported decision-making under uncertainty.",
-      "Demonstrated applied simulation and risk analysis skills.",
-    ],
-
-    technologies: ["Excel", "Simulation", "Risk Analysis"],
-    screenshot: "images/monte-carlo-simulation.png",
-    links: [
-      {
-        label: "Download Simulation Model",
-        url: "documents/monte-carlo-simulation-model.xlsx",
-      },
-    ],
-  },
-
-  {
+    {
     id: "predictive-analytics",
-    title: "Predictive Analytics Models",
+
+    title: "Predictive Analytics & Machine Learning Models",
+
     category: "academic",
-    featured: false,
+    featured: true,
     confidential: false,
+
     shortDescription:
-      "Applied regression, classification, clustering and forecasting models to business datasets.",
+    "Applied regression, classification, clustering and forecasting techniques to solve business analytics problems.",
 
     context:
-      "An academic predictive analytics project applying multiple modelling techniques to business problems.",
+    "A series of predictive analytics projects focused on extracting business insights and supporting decision-making through statistical and machine learning techniques.",
 
     problem:
-      "Different business questions required different analytical techniques, including prediction, classification, segmentation and forecasting.",
+    "Different business scenarios required prediction, classification, segmentation and forecasting approaches to improve analytical decision-making.",
 
     contribution: [
-      "Prepared and explored datasets.",
-      "Built regression, classification, clustering and forecasting models.",
-      "Evaluated model performance and interpreted outputs for business use.",
+    "Prepared and explored business datasets.",
+    "Developed regression, classification, clustering and forecasting models.",
+    "Evaluated model performance using appropriate analytical metrics.",
+    "Translated technical outputs into business-focused recommendations."
     ],
 
     result: [
-      "Demonstrated understanding of multiple analytics methods.",
-      "Connected model outputs to business interpretation.",
-      "Practised technical evaluation and business reporting.",
+    "Demonstrated practical application of predictive analytics methodologies.",
+    "Delivered data-driven insights and business recommendations.",
+    "Developed experience across multiple machine learning techniques."
     ],
 
-    technologies: ["RapidMiner", "Regression", "Classification"],
+    technologies: [
+    "Predictive Modelling",
+    "Regression",
+    "Classification",
+    "Clustering",
+    "Forecasting",
+    "RapidMiner",
+    "Model Evaluation"
+    ],
+
     screenshot: "images/predictive-analytics.png",
-    links: [
-      {
-        label: "View Report",
-        url: "documents/predictive-analytics-report.pdf",
-      },
-    ],
-  },
 
-  {
-    id: "tableau-dashboard",
-    title: "Tableau Dashboard Project",
+    links: [
+    {
+    label: "View Report",
+    url: "documents/predictive-analytics-report.pdf",
+    },
+    ],
+    },
+
+    {
+    id: "monte-carlo-simulation",
+
+    title: "Monte Carlo Simulation & Risk Analysis",
+
     category: "academic",
     featured: false,
     confidential: false,
+
     shortDescription:
-      "Built an interactive dashboard and storytelling solution for hotel review analysis.",
+    "Built a simulation model to evaluate operational risk, profitability and uncertainty across multiple business scenarios.",
 
     context:
-      "An academic data visualisation project focused on dashboard design, interactivity and storytelling.",
+    "The project examined how uncertainty in demand, cancellations and operating costs could impact business performance.",
 
     problem:
-      "The project required translating hotel review data into an interactive dashboard that could support exploration and insight communication.",
+    "Traditional deterministic forecasting methods did not adequately capture operational risk or the range of potential business outcomes.",
 
     contribution: [
-      "Designed dashboard layout and user flow.",
-      "Created interactive charts and filters.",
-      "Used visual storytelling principles to guide interpretation.",
+    "Defined fixed and stochastic input variables.",
+    "Built Monte Carlo simulation models using probability distributions.",
+    "Evaluated risk metrics including profitability and probability of loss.",
+    "Analysed business outcomes under multiple operating scenarios."
     ],
 
     result: [
-      "Created an interactive Tableau dashboard.",
-      "Improved ability to communicate findings visually.",
-      "Practised audience-focused dashboard design.",
+    "Provided probabilistic forecasts rather than single-point estimates.",
+    "Improved understanding of operational risk exposure.",
+    "Demonstrated simulation modelling and decision-support capability."
     ],
 
-    technologies: ["Tableau", "Data Visualisation", "Storytelling"],
-    screenshot: "images/tableau-dashboard.png",
+    technologies: [
+    "Monte Carlo Simulation",
+    "Risk Analysis",
+    "Scenario Modelling",
+    "Excel Modelling",
+    "Decision Support"
+    ],
+
+    screenshot: "images/monte-carlo-simulation.png",
+
     links: [
-      {
-        label: "View Report",
-        url: "documents/tableau-dashboard-report.pdf",
-      },
+    {
+    label: "Download Simulation Model",
+    url: "documents/monte-carlo-simulation-report.xlsx",
+    },
+    ],
+    },
+
+    {
+    id: "tableau-dashboard",
+
+    title: "Interactive Analytics Dashboard & Data Storytelling",
+
+    category: "academic",
+    featured: false,
+    confidential: false,
+
+    shortDescription:
+    "Designed an interactive analytics dashboard and storytelling experience to transform complex review data into actionable business insights.",
+
+    context:
+    "The project focused on analysing hotel review data and presenting findings through an interactive dashboard experience that balanced exploration, usability and insight communication.",
+
+    problem:
+    "Large volumes of customer review data contained valuable information, but the underlying patterns were difficult to identify without effective visualisation and storytelling techniques.",
+
+    contribution: [
+    "Designed an interactive dashboard structure focused on user exploration and insight discovery.",
+    "Created KPI views, comparative analysis visualisations and geographic reporting components.",
+    "Applied dashboard design and visual storytelling principles to improve usability and interpretation.",
+    "Developed interactive filters and navigation elements to support multiple analytical perspectives."
+    ],
+
+    result: [
+    "Transformed complex review data into an accessible and engaging analytical experience.",
+    "Improved communication of customer sentiment and hotel performance patterns.",
+    "Demonstrated dashboard design, data storytelling and user-focused analytics capability."
+    ],
+
+    technologies: [
+    "Tableau",
+    "Dashboard Design",
+    "Data Visualisation",
+    "Data Storytelling",
+    "User Experience Design",
+    "Interactive Analytics"
+    ],
+
+    screenshot: "images/tableau-dashboard.png",
+
+    links: [
+    {
+    label: "View Report",
+    url: "documents/tableau-dashboard-report.pdf",
+    },
     ],
   },
 ]
