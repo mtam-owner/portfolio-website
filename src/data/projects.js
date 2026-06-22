@@ -248,6 +248,61 @@ export const projects = [
   },
 
   {
+    id: "customer-journey-analytics",
+
+    title: "Customer Journey Analytics",
+
+    category: "personal",
+    featured: true,
+    confidential: false,
+
+    shortDescription:
+      "A Power BI analytics project exploring customer acquisition, retention and repeat purchase behaviour using the Olist e-commerce dataset.",
+
+    context:
+      "This project was created to demonstrate advanced Power BI, DAX and customer analytics capabilities using a real-world e-commerce dataset. The focus was understanding how customers progress from their first purchase to becoming repeat buyers and identifying the behavioural patterns associated with customer retention.",
+
+    problem:
+      "Many organisations invest heavily in acquiring customers but have limited visibility into what drives repeat purchases and long-term customer value. The project explores how customer behaviour changes over time and which segments contribute most to sustainable growth.",
+
+    contribution: [
+      "Designed a star schema data model optimised for analytical reporting in Power BI.",
+      "Developed DAX measures covering customer acquisition, retention and repeat purchase behaviour.",
+      "Built cohort analysis and customer lifecycle reporting views.",
+      "Created customer segmentation frameworks to compare purchasing patterns across customer groups.",
+      "Used DAX Studio to analyse and optimise model performance.",
+      "Designed an interactive reporting experience focused on customer journey exploration and business storytelling."
+    ],
+
+    result: [
+      "Produced a comprehensive customer analytics solution covering acquisition, retention and customer lifetime behaviour.",
+      "Demonstrated advanced Power BI modelling and DAX development techniques.",
+      "Provided clear visibility into customer journey patterns and repeat purchase behaviour.",
+      "Showcased analytical storytelling through interactive dashboards and customer-focused insights."
+    ],
+
+    technologies: [
+      "Power BI",
+      "DAX",
+      "DAX Studio",
+      "Data Modelling",
+      "Customer Analytics",
+      "Cohort Analysis",
+      "Customer Segmentation",
+      "Business Intelligence"
+    ],
+
+    screenshot: "images/power-bi-personal-pj.png",
+
+    links: [
+      {
+        label: "Download PBIX",
+        url: "",
+      },
+    ],
+  },
+
+  {
     id: "ice-data-warehouse",
 
     title: "Enterprise Data Warehouse & Governance Framework",
