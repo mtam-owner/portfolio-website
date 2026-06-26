@@ -213,39 +213,66 @@ export const projects = [
 
   {
     id: "calllens",
-    title: "CallLens",
+
+    title: "CallLens – AI Conversation Intelligence Platform",
+
     category: "personal",
     featured: true,
     confidential: false,
+
     shortDescription:
-      "AI-powered call analytics project using NLP to extract sentiment, keywords and business insights.",
+      "Built an AI-powered conversation intelligence platform that transforms customer support conversations into actionable business insights through NLP, LLMs and interactive analytics.",
 
     context:
-      "A personal analytics project exploring how customer conversations can be analysed at scale using NLP techniques.",
+      "Customer conversations contain valuable operational and customer experience insights, yet organisations often rely on manual transcript reviews that are difficult to scale. CallLens was developed as an end-to-end analytics platform that converts unstructured conversations into structured intelligence for business users.",
 
     problem:
-      "Customer calls contain valuable business information, but manually reviewing conversations is time-consuming and difficult to scale.",
+      "Support teams generate thousands of conversations containing recurring issues, customer sentiment, escalation risks and product feedback. Without automated analysis, these insights remain buried within transcripts, making it difficult for management to identify trends, monitor service quality and prioritise operational improvements.",
 
     contribution: [
-      "Designed a basic NLP pipeline for transcript analysis.",
-      "Extracted sentiment, keywords and recurring conversation themes.",
-      "Prepared outputs for visualisation and business interpretation.",
+      "Designed an end-to-end conversation analytics pipeline from transcript ingestion to interactive reporting.",
+      "Processed customer support conversations using NLP techniques to extract sentiment, intent, keywords and recurring discussion topics.",
+      "Applied Large Language Models (LLMs) to generate concise conversation summaries and management-ready insights.",
+      "Developed AI-assisted classification to identify complaint categories, escalation risks and customer enquiry types.",
+      "Created an interactive web-based analytics application enabling users to explore conversations, trends and performance metrics.",
+      "Designed visual reporting components to support customer experience monitoring and operational decision-making.",
+      "Built the project using a cloud-first workflow with GitHub-based version control and reproducible deployment."
     ],
 
     result: [
-      "Demonstrated how unstructured text can be converted into analytical insight.",
-      "Created a foundation for future call analytics and customer experience reporting.",
+      "Demonstrated how unstructured conversation data can be transformed into structured business intelligence.",
+      "Provided automated insight generation across customer sentiment, conversation themes and operational risks.",
+      "Created a scalable foundation for AI-assisted customer support analytics and quality assurance.",
+      "Showcased practical integration of NLP, LLMs and interactive analytics within a single end-to-end solution."
     ],
 
-    technologies: ["Python", "NLP", "Power BI"],
-    screenshot: "",
+    technologies: [
+      "Python",
+      "Natural Language Processing",
+      "Large Language Models",
+      "Prompt Engineering",
+      "Pandas",
+      "Streamlit",
+      "Plotly",
+      "GitHub",
+      "AI Analytics",
+      "Conversation Intelligence"
+    ],
+
+    screenshot: "images/calllens-dashboard.png",
+
     links: [
       {
         label: "GitHub Repository",
-        url: "https://github.com/mtam-owner",
+        url: "https://github.com/mtam-owner/calllens"
       },
+      {
+        label: "Live Demo",
+        url: ""
+      }
     ],
-  },
+  }
+  ,
 
   {
     id: "customer-journey-analytics",
