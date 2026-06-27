@@ -1,3 +1,4 @@
+import { useState } from "react"
 import { useParams, Link } from "react-router-dom"
 import { projects } from "../data/projects"
 
@@ -14,6 +15,8 @@ function getAssetPath(path) {
 function ProjectDetail() {
   const { projectId } = useParams()
 
+  const [activeMediaIndex, setActiveMediaIndex] = useState(0)
+
   const project = projects.find(
     (project) => project.id === projectId
   )
@@ -29,6 +32,27 @@ function ProjectDetail() {
           </Link>
         </section>
       </main>
+    )
+  }
+
+  const hasMedia = project.media && project.media.length > 0
+  const activeMedia = hasMedia
+    ? project.media[activeMediaIndex]
+    : null
+
+  function goToPreviousMedia() {
+    setActiveMediaIndex((currentIndex) =>
+      currentIndex === 0
+        ? project.media.length - 1
+        : currentIndex - 1
+    )
+  }
+
+  function goToNextMedia() {
+    setActiveMediaIndex((currentIndex) =>
+      currentIndex === project.media.length - 1
+        ? 0
+        : currentIndex + 1
     )
   }
 
@@ -49,13 +73,72 @@ function ProjectDetail() {
 
         {project.confidential && (
           <div className="notice-box">
-            Some details have been modified or omitted due to
-            confidentiality requirements.
+            Some details, datasets and implementation documentation have been
+            modified or omitted due to confidentiality requirements.
           </div>
         )}
       </section>
 
-      {project.screenshot && (
+      {hasMedia && (
+        <section className="project-media-section">
+          <div className="media-carousel">
+            <h2>{activeMedia.title}</h2>
+
+            <div className="media-frame">
+              {activeMedia.type === "video" ? (
+                <video
+                  src={getAssetPath(activeMedia.src)}
+                  controls
+                  preload="metadata"
+                  className="project-video"
+                />
+              ) : (
+                <img
+                  src={getAssetPath(activeMedia.src)}
+                  alt={activeMedia.title}
+                  className="project-screenshot"
+                />
+              )}
+            </div>
+
+            <div className="media-controls">
+              <button
+                type="button"
+                onClick={goToPreviousMedia}
+              >
+                ← Previous
+              </button>
+
+              <button
+                type="button"
+                onClick={goToNextMedia}
+              >
+                Next →
+              </button>
+            </div>
+
+            <div className="media-dots">
+              {project.media.map((mediaItem, index) => (
+                <button
+                  type="button"
+                  key={`${mediaItem.title}-${index}`}
+                  className={
+                    index === activeMediaIndex
+                      ? "media-dot active"
+                      : "media-dot"
+                  }
+                  onClick={() => setActiveMediaIndex(index)}
+                  aria-label={`View ${mediaItem.title}`}
+                >
+                  {mediaItem.type === "video" ? "▶" : "●"}
+                </button>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {!hasMedia && project.screenshot && (
         <section className="project-media-section">
           <img
             src={getAssetPath(project.screenshot)}

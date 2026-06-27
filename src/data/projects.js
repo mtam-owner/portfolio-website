@@ -252,25 +252,50 @@ export const projects = [
         "Pandas",
         "Streamlit",
         "Plotly",
-        "Natural Language Processing",
+        "NLP",
         "Parquet",
-        "Feature Engineering",
-        "AI Architecture",
-        "Git",
+        "AI Integration",
         "GitHub"
       ],
 
-      screenshot: "images/convolens-dashboard.png",
+      media: [
+        {
+          type: "video",
+          title: "Product Demo",
+          src: "media/convolens-demo.mp4",
+        },
+        {
+          type: "image",
+          title: "Mainpage",
+          src: "images/convolens-1.png",
+        },
+        {
+          type: "image",
+          title: "Executive Dashboard",
+          src: "images/convolens-2.png",
+        },
+        {
+          type: "image",
+          title: "Conversation Explorer",
+          src: "images/convolens-3.png",
+        },
+        {
+          type: "image",
+          title: "Conversation Intelligence",
+          src: "images/convolens-4.png",
+        },
+        {
+          type: "image",
+          title: "AI Workspace",
+          src: "images/convolens-5.png",
+        },
+      ],
 
       links: [
         {
           label: "GitHub Repository",
           url: "https://github.com/mtam-owner/convolens"
         },
-        {
-          label: "Live Demo",
-          url: ""
-        }
       ],
     }
   ,
