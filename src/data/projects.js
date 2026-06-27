@@ -211,67 +211,68 @@ export const projects = [
     links: [],
     },
 
-  {
-    id: "calllens",
+    {
+      id: "convolens",
 
-    title: "CallLens – AI Conversation Intelligence Platform",
+      title: "ConvoLens - Conversation Intelligence Platform",
 
-    category: "personal",
-    featured: true,
-    confidential: false,
+      category: "personal",
+      featured: true,
+      confidential: false,
 
-    shortDescription:
-      "Built an AI-powered conversation intelligence platform that transforms customer support conversations into actionable business insights through NLP, LLMs and interactive analytics.",
+      shortDescription:
+        "Designed and developed an end-to-end conversation intelligence platform that transforms unstructured customer support conversations into actionable business insights through NLP, interactive analytics and an AI-ready architecture.",
 
-    context:
-      "Customer conversations contain valuable operational and customer experience insights, yet organisations often rely on manual transcript reviews that are difficult to scale. CallLens was developed as an end-to-end analytics platform that converts unstructured conversations into structured intelligence for business users.",
+      context:
+        "Customer support teams generate thousands of conversations every day, yet valuable operational insights often remain buried within unstructured text. ConvoLens was developed to demonstrate how conversational data can be transformed into business intelligence through a complete analytics pipeline, combining data engineering, natural language processing, dashboard development and AI-assisted analysis within a single application.",
 
-    problem:
-      "Support teams generate thousands of conversations containing recurring issues, customer sentiment, escalation risks and product feedback. Without automated analysis, these insights remain buried within transcripts, making it difficult for management to identify trends, monitor service quality and prioritise operational improvements.",
+      problem:
+        "Organisations frequently rely on manual transcript reviews to identify customer issues, monitor service quality and understand operational trends. This process is time-consuming, difficult to scale and provides limited visibility into emerging issues, escalation risks and recurring customer concerns. The project addresses this challenge by converting raw conversations into structured analytical datasets and interactive decision-support dashboards.",
 
-    contribution: [
-      "Designed an end-to-end conversation analytics pipeline from transcript ingestion to interactive reporting.",
-      "Processed customer support conversations using NLP techniques to extract sentiment, intent, keywords and recurring discussion topics.",
-      "Applied Large Language Models (LLMs) to generate concise conversation summaries and management-ready insights.",
-      "Developed AI-assisted classification to identify complaint categories, escalation risks and customer enquiry types.",
-      "Created an interactive web-based analytics application enabling users to explore conversations, trends and performance metrics.",
-      "Designed visual reporting components to support customer experience monitoring and operational decision-making.",
-      "Built the project using a cloud-first workflow with GitHub-based version control and reproducible deployment."
-    ],
+      contribution: [
+        "Designed a modular end-to-end data pipeline that reconstructs conversations, engineers analytical features and produces optimised datasets for interactive reporting.",
+        "Built a conversation processing workflow that transforms raw customer support messages into structured conversation-level datasets using Python and Pandas.",
+        "Developed rule-based NLP feature engineering to detect customer intent, operational risk signals, complaint keywords, urgency indicators and escalation factors.",
+        "Created a multi-page Streamlit application consisting of four dedicated analytical workspaces for executive reporting, conversation investigation, business intelligence and AI-assisted analysis.",
+        "Designed interactive Plotly dashboards using executive KPIs, trend analysis, heatmaps, treemaps, conversation timelines and comparative visualisations to support operational decision making.",
+        "Implemented a modular AI analysis engine capable of generating conversation summaries, sentiment estimation, root-cause analysis, recommended actions and confidence scoring through a provider-independent architecture.",
+        "Designed the AI layer as a pluggable interface so rule-based analysis can be replaced with enterprise LLM providers such as Azure OpenAI, OpenAI, Gemini or Claude without changing the application interface.",
+        "Built a deployment-ready project structure with reproducible preprocessing scripts, demo datasets, GitHub version control and modular software architecture."
+      ],
 
-    result: [
-      "Demonstrated how unstructured conversation data can be transformed into structured business intelligence.",
-      "Provided automated insight generation across customer sentiment, conversation themes and operational risks.",
-      "Created a scalable foundation for AI-assisted customer support analytics and quality assurance.",
-      "Showcased practical integration of NLP, LLMs and interactive analytics within a single end-to-end solution."
-    ],
+      result: [
+        "Delivered a complete analytics platform demonstrating the transformation of unstructured customer conversations into structured operational intelligence.",
+        "Enabled interactive exploration of customer support performance through executive dashboards, conversation-level investigation and organisation-wide trend analysis.",
+        "Demonstrated practical application of data engineering, NLP, dashboard development and AI architecture within a single production-style project.",
+        "Established a scalable foundation for future enhancements including enterprise LLM integration, semantic search, vector embeddings and real-time conversation analytics."
+      ],
 
-    technologies: [
-      "Python",
-      "Natural Language Processing",
-      "Large Language Models",
-      "Prompt Engineering",
-      "Pandas",
-      "Streamlit",
-      "Plotly",
-      "GitHub",
-      "AI Analytics",
-      "Conversation Intelligence"
-    ],
+      technologies: [
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "Plotly",
+        "Natural Language Processing",
+        "Parquet",
+        "Feature Engineering",
+        "AI Architecture",
+        "Git",
+        "GitHub"
+      ],
 
-    screenshot: "images/calllens-dashboard.png",
+      screenshot: "images/convolens-dashboard.png",
 
-    links: [
-      {
-        label: "GitHub Repository",
-        url: "https://github.com/mtam-owner/calllens"
-      },
-      {
-        label: "Live Demo",
-        url: ""
-      }
-    ],
-  }
+      links: [
+        {
+          label: "GitHub Repository",
+          url: "https://github.com/mtam-owner/convolens"
+        },
+        {
+          label: "Live Demo",
+          url: ""
+        }
+      ],
+    }
   ,
 
   {
