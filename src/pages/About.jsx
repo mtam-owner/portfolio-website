@@ -4,11 +4,12 @@ function About() {
       <section className="page-hero">
         <p className="eyebrow">About</p>
 
-        <h1>Building the bridge between data and business decisions.</h1>
+        <h1>Building the bridge between data, systems and business decisions.</h1>
 
         <p>
-          I'm Andrea Dang, a Data Analyst based in Melbourne and currently
-          completing a Master of Business Analytics at Deakin University.
+          I'm Andrea Dang, a Data Analyst and Consultant based in Melbourne,
+          currently completing a Master of Business Analytics at Deakin
+          University.
         </p>
       </section>
 
@@ -17,8 +18,8 @@ function About() {
 
         <p>
           I started my analytics career at 19 and spent the next few years
-          working in Melbourne's travel industry, where I supported teams
-          across sales, marketing, operations and management reporting.
+          working across customer analytics, marketing reporting, sales
+          performance, operational reporting and data platform development.
         </p>
 
         <p>
@@ -34,16 +35,16 @@ function About() {
         <h2>Professional Focus</h2>
 
         <p>
-          My work has involved customer data consolidation, reporting
-          automation, data quality improvement, marketing performance tracking
-          and cross-functional business reporting.
+          My work spans business intelligence, data modelling, reporting
+          automation, customer analytics, marketing intelligence and
+          AI-enabled analytics applications.
         </p>
 
         <p>
           I enjoy projects where the problem is messy at first: fragmented data,
-          unclear reporting logic, manual processes, or business teams needing
+          unclear business rules, manual reporting processes or teams needing
           more reliable visibility. Those are the projects where analytics can
-          create real operational value.
+          create practical operational value.
         </p>
       </section>
 
@@ -51,10 +52,10 @@ function About() {
         <h2>Current Direction</h2>
 
         <p>
-          I am currently developing my skills further through my Master of
-          Business Analytics, while building a portfolio across business
-          intelligence, data engineering, predictive analytics and AI-assisted
-          analytics solutions.
+          I am currently developing my consulting experience while completing my
+          Master of Business Analytics and building a portfolio across business
+          intelligence, data engineering, Power BI and AI-assisted analytics
+          solutions.
         </p>
 
         <p>

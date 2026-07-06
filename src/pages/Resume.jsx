@@ -4,7 +4,7 @@ function Resume() {
       <section className="page-hero">
         <p className="eyebrow">Resume</p>
 
-        <h1>Experience across analytics, reporting and business problem solving.</h1>
+        <h1>Experience across analytics, consulting and business intelligence.</h1>
 
         <p>
           A concise overview of my professional experience, education and
@@ -12,12 +12,12 @@ function Resume() {
         </p>
 
         <a
-          href="/portfolio-website/resume.pdf"
+          href="/resume.pdf"
           target="_blank"
           rel="noreferrer"
           className="button primary-button"
         >
-          Download Resume
+          Download CV
         </a>
       </section>
 
@@ -25,15 +25,42 @@ function Resume() {
         <h2>Professional Summary</h2>
 
         <p>
-          Data Analyst with 2.5+ years of experience in Melbourne's travel
-          industry, supporting sales, marketing, operations and management teams
-          through reporting automation, customer data consolidation, dashboard
-          development and business analytics.
+          Data Analyst and Consultant with 3 years of experience delivering
+          business intelligence platforms, analytics solutions and AI-enabled
+          reporting across customer analytics, marketing, operations and
+          commercial decision-making. Experienced in designing data models,
+          automating reporting workflows and transforming complex data into
+          practical business insights.
         </p>
       </section>
 
       <section className="resume-section">
         <h2>Experience</h2>
+
+        <div className="resume-item">
+          <h3>Consultant</h3>
+          <p>Melbourne, Australia</p>
+          <p>Current</p>
+
+          <ul>
+            <li>
+              Deliver consulting work across data, analytics and business
+              reporting.
+            </li>
+            <li>
+              Translate business requirements into practical analytical
+              solutions.
+            </li>
+            <li>
+              Support reporting, data management and business intelligence
+              solutions for organisational decision-making.
+            </li>
+            <li>
+              Collaborate with stakeholders to understand business processes and
+              improve data-driven operations.
+            </li>
+          </ul>
+        </div>
 
         <div className="resume-item">
           <h3>Data Analyst</h3>
@@ -46,12 +73,16 @@ function Resume() {
               operations and management.
             </li>
             <li>
-              Consolidated fragmented customer data into a more reliable
-              analytics-ready environment.
+              Designed customer, marketing and sales data models to improve
+              reporting reliability and business visibility.
             </li>
             <li>
-              Developed dashboards and reporting workflows to improve visibility
-              and reduce manual reporting effort.
+              Developed web-based reporting platforms, automated reporting
+              workflows and AI-assisted business summaries.
+            </li>
+            <li>
+              Consolidated fragmented customer, sales and activity data into
+              structured analytics-ready environments.
             </li>
           </ul>
         </div>
@@ -63,11 +94,27 @@ function Resume() {
         <div className="resume-item">
           <h3>Master of Business Analytics</h3>
           <p>Deakin University · Expected 2026</p>
+
+          <ul>
+            <li>
+              Accelerated a two-year program into one year through an approved
+              fast-track pathway.
+            </li>
+          </ul>
         </div>
 
         <div className="resume-item">
           <h3>Bachelor of Business Information Systems</h3>
           <p>Swinburne University of Technology</p>
+
+          <ul>
+            <li>
+              Awarded the 50% Academic Excellence Scholarship.
+            </li>
+            <li>
+              Member of Alpha Beta Psi.
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -76,23 +123,36 @@ function Resume() {
 
         <div className="skills-grid">
           <div>
-            <h3>Analytics</h3>
-            <p>SQL, Python, Power BI, Excel, Data Validation</p>
+            <h3>Programming</h3>
+            <p>SQL, Python</p>
           </div>
 
           <div>
-            <h3>Data & Reporting</h3>
-            <p>Data Modelling, Reporting Automation, Data Governance</p>
+            <h3>Business Intelligence</h3>
+            <p>Power BI, DAX, DAX Studio, Looker Studio</p>
+          </div>
+
+          <div>
+            <h3>Data</h3>
+            <p>Data Modelling, ETL, Data Validation, Data Governance</p>
+          </div>
+
+          <div>
+            <h3>Analytics</h3>
+            <p>
+              Customer Analytics, Marketing Analytics, Business Intelligence,
+              Predictive Analytics
+            </p>
           </div>
 
           <div>
             <h3>Tools</h3>
-            <p>Databricks, DBeaver, Looker Studio, RapidMiner, HubSpot</p>
+            <p>Excel, Databricks, DBeaver, HubSpot, RapidMiner, DashboardFox</p>
           </div>
 
           <div>
-            <h3>Languages</h3>
-            <p>Vietnamese, English, Mandarin</p>
+            <h3>Other</h3>
+            <p>Git, GitHub, Streamlit, PHP</p>
           </div>
         </div>
       </section>

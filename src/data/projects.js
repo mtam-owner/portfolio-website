@@ -164,6 +164,55 @@ export const projects = [
   },
 
   {
+    id: "looker-studio-marketing",
+
+    title: "Looker Studio Digital Performance Dashboard",
+
+    category: "professional",
+    featured: false,
+    confidential: true,
+
+    shortDescription:
+      "Designed operational marketing dashboards in Looker Studio to monitor campaign performance across multiple digital acquisition channels.",
+
+    context:
+      "As digital marketing activities expanded across Google Ads, Meta Ads, Google Analytics 4 and other acquisition channels, marketing teams required a faster and more accessible way to monitor campaign performance. Before the organisation invested in a fully integrated reporting platform, Looker Studio dashboards were developed to centralise key marketing metrics and support day-to-day decision making.",
+
+    problem:
+      "Campaign data existed across multiple platforms, requiring marketers to manually review individual advertising accounts and analytics tools to understand overall performance. This limited reporting efficiency and made cross-channel comparison difficult.",
+
+    contribution: [
+      "Designed interactive marketing dashboards using Looker Studio for campaign performance monitoring.",
+      "Integrated data from Google Ads, Meta Ads and Google Analytics 4 into a unified reporting environment.",
+      "Developed KPI dashboards supporting campaign, channel and time-based performance analysis.",
+      "Worked closely with marketing stakeholders to refine reporting requirements and dashboard usability.",
+      "Established reporting structures and KPI definitions that later informed the development of the enterprise Marketing Data Platform."
+    ],
+
+    result: [
+      "Reduced manual effort required to monitor marketing performance.",
+      "Provided a centralised view of campaign activity across major acquisition channels.",
+      "Improved visibility into campaign effectiveness through interactive dashboards.",
+      "Created the reporting foundation that later evolved into the organisation's integrated Marketing Data Platform."
+    ],
+
+    technologies: [
+      "Looker Studio",
+      "Google Analytics 4",
+      "Google Ads",
+      "Meta Ads",
+      "Dashboard Design",
+      "Marketing Analytics",
+      "Data Visualisation",
+      "KPI Reporting"
+    ],
+
+    screenshot: "images/looker-studio-marketing.png",
+
+    links: [],
+  },
+
+  {
     id: "incentive-automation",
 
     title: "Workforce Incentive Calculation Automation",

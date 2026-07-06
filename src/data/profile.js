@@ -1,31 +1,31 @@
 export const profile = {
   name: "Andrea Dang",
 
-  title: "Data Analyst | Business Analytics Master's Student",
+  title: "Data Analyst | Consultant | Master of Business Analytics",
 
   location: "Melbourne, Australia",
 
   tagline: "Turning data into business decisions.",
 
   intro:
-    "I build reporting platforms, customer databases, analytics solutions and decision-support tools that help organisations work smarter.",
+    "I build business intelligence platforms, analytics solutions and AI-powered applications that transform complex data into practical business decisions. My experience spans customer analytics, marketing intelligence, data modelling, reporting automation and consulting across commercial environments.",
 
   stats: [
     {
-      value: "2.5+",
-      label: "Years of Experience",
+      value: "3+",
+      label: "Years in Analytics",
     },
     {
-      value: "17",
-      label: "Years of Customer Data Consolidated",
+      value: "20+",
+      label: "Analytics Projects",
+    },
+    {
+      value: "4",
+      label: "Enterprise Data Platforms",
     },
     {
       value: "200+",
-      label: "Staff Supported with Data & Insights",
-    },
-    {
-      value: "5+",
-      label: "Business Functions Supported",
+      label: "Business Users Supported",
     },
   ],
 }
