@@ -39,7 +39,7 @@ function Resume() {
 
         <div className="resume-item">
           <h3>Consultant</h3>
-          <p>Melbourne, Australia</p>
+          <p>On Report · WA, Australia</p>
           <p>Current</p>
 
           <ul>
