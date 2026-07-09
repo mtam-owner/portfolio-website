@@ -6,6 +6,14 @@ import App from "./App"
 
 import "./styles/globals.css"
 
+// Restore the original route after GitHub Pages redirects 404 requests.
+const params = new URLSearchParams(window.location.search)
+const redirect = params.get("redirect")
+
+if (redirect) {
+  window.history.replaceState(null, "", redirect)
+}
+
 ReactDOM.createRoot(
   document.getElementById("root")
 ).render(
